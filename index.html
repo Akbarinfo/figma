@@ -1,38 +1,351 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/col.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Title</title>
 </head>
+
 <body>
 
-<!-- HEADER PART  -->
-<section id="header-site"></section>
-<header>
 
-</header>
-<!-- HEADER PART END -->
+  <section class="row center">
+    <!-- HEADER PART -->
+    <header class="col-2">
+      <div class="site-header">
+        <div class="herder-akkount row">
+          <img src="images/akkount-icon.svg" alt="akkount-icon" width="32" height="32">
+          <div class="header-log">
+            <h2 class="header-login">Toshmat</h2>
+            <span class="header-email">toshmat@gmail.com</span>
+          </div>
+          <button class="header-btn" type="button"><i class='bx bx-chevron-down'></i></button>
+        </div>
+        <nav class="header-nav">
+          <ul class="herder-nav-list">
+            <li class="herder-nav-item">
+              <i class='bx bx-time-five'></i> <a href="#">Recents</a>
+            </li>
+            <li class="herder-nav-item">
+              <i class='bx bx-file-blank'></i> <a href="#">Drafts</a>
+            </li>
+            <hr style="width: 260px; margin: auto; margin-bottom: 10px;">
+            <li class="herder-nav-item">
+              <i class='bx bx-globe'></i> <a href="#">Community <span class="header-span-beta">Beta</span> <i
+                  class='bx bx-right-arrow-alt'></i></a>
+            </li>
+            <hr style="width: 260px; margin: auto; margin-bottom: 10px; margin-top: 10px;">
+            <li class="herder-nav-item">
+              <i class='bx bx-up-arrow-circle'></i>
+              <p>Upgrade plan for design files in teams</p>
+            </li>
+            <li class="herder-nav-item">
+              <button class="herder-nav-list-btn" type="button">Upgrade</button>
+            </li>
+            <hr style="width: 260px; margin: auto; margin-bottom: 10px;">
+            <li class="herder-nav-item">
+              <i class='bx bxs-checkbox'></i> <a href="#"><b>Max</b> </a>
+            </li>
+            <li class="herder-nav-item">
+              <a href="#">Team project</a>
+            </li>
+            <hr style="width: 260px; margin: auto; margin-bottom: 10px;">
+            <li class="herder-nav-item">
+              <i class='bx bx-plus'></i> <a href="#">Create new team</a>
+            </li>
+          </ul>
+        </nav>
 
-<!-- MAIN PART  -->
+      </div>
+    </header>
+    <!-- HEADER PART END -->
 
-<main>
+    <!-- MAIN PART -->
+    <main class="col-10">
+      <div class="main-part">
+        <div class="main-header row">
+          <div class="main-part-search">
+            <form action="https://echo.htmlacademy.ru">
+              <i class='bx bx-search'></i><label for="search">
+                <input class="input-search" type="search" id="search" placeholder="Search" required>
+              </label>
+            </form>
+          </div>
+          <nav class="main-part-nav">
+            <ul class="main-part-list row middle">
+              <li><button class="main-part-btn" type="button"><img src="images/galichka.svg" alt="galichka"></button>
+              </li>
+              <li class="main-part-item"><button class="main-part-btn" type="button"><span
+                    class="main-part-btn-span">T</span> <i class='bx bx-chevron-down'></i></button></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="main-part-main">
+          <p class="main-part-text">Recently viewed</p>
+      <ul class="main-new-list row middle">
+        <li class="main-new-item">
+          <div><a href="#"><i class='bx bxs-file-blank'></i></a></div>
+          <div>
+            <a href="#">
+              <h2 class="main-new-title">New design file</h2>
+              <p class="main-new-desc">Design and prototype</p>
+            </a>
+          </div>
+          <div class="main-new-plus row middle">
+            <img src="images/plus-icon.svg" alt="plus-icon" width="12" height="12">
+          </div>
 
-</main>
+        </li>
+        <li class="main-new-item">
+          <div><a href="#"><i class='bx bxs-file-archive'></i></a></div>
+          <div>
+            <a href="#">
+              <h2 class="main-new-title">New FigJam file</h2>
+              <p class="main-new-desc">Whiteboard and diagram</p>
+            </a>
+          </div>
+          <div class="main-new-plus row middle">
+            <img src="images/plus-icon.svg" alt="plus-icon" width="12" height="12">
+          </div>
 
-<!-- MAIN PART END -->
+        </li>
 
-<!-- FOOTER PART -->
+        <li class="main-new-item">
+          <div><a href="#"><i class='bx bx-import'></i></a></div>
+          <div>
+            <a href="#">
+              <h2 class="main-new-title">New design file</h2>
+              <p class="main-new-desc">Design and prototype</p>
+            </a>
+          </div>
+        </li>
+      </ul>
+        </div>
 
-<footer>
+      </div>
 
-</footer>
 
-<!-- FOOTER PART END -->
+    <!-- MAIN FILES PART -->
+    <div class="main-files row between">
+      <div class="row middle">
+        <button class="main-files-btn row middle" type="button"> Last viewed <img src="images/file-bottom-icon.svg" alt="file-bottom-icon" width="6" height="6"></button>
+      </div>
+    <div class="row">
+      <button class="main-files-btn" type="button"><img src="images/icon-box.svg" alt="icon-box" width="24" height="24"></button>
+      <button class="main-files-btn" type="button"><img src="images/path-svg.svg" alt="icon-box" width="24" height="24"></button>
+    </div>    </div>
+
+    <ul class="main-files-list row">
+      <li class="main-files-item">
+        <div class="main-files-img">
+          <img src="https://picsum.photos/id/828/296/179" alt="photo" width="296" height="179">
+        </div>
+        <div class="main-files-main row middle">
+          <div>
+            <img src="./images/file-pencil-icon.svg" alt="file-pencil-icon" width="32" height="32">
+          </div>
+          <div>
+            <h3 class="main-files-title">Name</h3>
+            <p class="main-files-desc">In Drafts Edited 1 hour ago</p>
+          </div>
+          </div>
+      </li>
+      <li class="main-files-item">
+        <div class="main-files-img">
+          <img src="https://picsum.photos/id/828/296/179" alt="photo" width="296" height="179">
+        </div>
+        <div class="main-files-main row middle">
+          <div>
+            <img src="./images/file-pen-icon.svg" alt="file-pencil-icon" width="32" height="32">
+          </div>
+          <div>
+            <h3 class="main-files-title">Name</h3>
+            <p class="main-files-desc">In Drafts Edited 1 hour ago</p>
+          </div>
+          </div>
+      </li>
+      <li class="main-files-item">
+        <div class="main-files-img">
+          <img src="https://picsum.photos/id/828/296/179" alt="photo" width="296" height="179">
+        </div>
+        <div class="main-files-main row middle">
+          <div>
+            <img src="./images/file-pencil-icon.svg" alt="file-pencil-icon" width="32" height="32">
+          </div>
+          <div>
+            <h3 class="main-files-title">Name</h3>
+            <p class="main-files-desc">In Drafts Edited 1 hour ago</p>
+          </div>
+          </div>
+      </li>
+      <li class="main-files-item">
+        <div class="main-files-img">
+          <img src="https://picsum.photos/id/828/296/179" alt="photo" width="296" height="179">
+        </div>
+        <div class="main-files-main row middle">
+          <div>
+            <img src="./images/file-pen-icon.svg" alt="file-pencil-icon" width="32" height="32">
+          </div>
+          <div>
+            <h3 class="main-files-title">Name</h3>
+            <p class="main-files-desc">In Drafts Edited 1 hour ago</p>
+          </div>
+          </div>
+      </li>
+      <li class="main-files-item">
+        <div class="main-files-img">
+          <img src="https://picsum.photos/id/828/296/179" alt="photo" width="296" height="179">
+        </div>
+        <div class="main-files-main row middle">
+          <div>
+            <img src="./images/file-pencil-icon.svg" alt="file-pencil-icon" width="32" height="32">
+          </div>
+          <div>
+            <h3 class="main-files-title">Name</h3>
+            <p class="main-files-desc">In Drafts Edited 1 hour ago</p>
+          </div>
+          </div>
+      </li>
+      <li class="main-files-item">
+        <div class="main-files-img">
+          <img src="https://picsum.photos/id/828/296/179" alt="photo" width="296" height="179">
+        </div>
+        <div class="main-files-main row middle">
+          <div>
+            <img src="./images/file-pen-icon.svg" alt="file-pencil-icon" width="32" height="32">
+          </div>
+          <div>
+            <h3 class="main-files-title">Name</h3>
+            <p class="main-files-desc">In Drafts Edited 1 hour ago</p>
+          </div>
+          </div>
+      </li>
+      <li class="main-files-item">
+        <div class="main-files-img">
+          <img src="https://picsum.photos/id/828/296/179" alt="photo" width="296" height="179">
+        </div>
+        <div class="main-files-main row middle">
+          <div>
+            <img src="./images/file-pencil-icon.svg" alt="file-pencil-icon" width="32" height="32">
+          </div>
+          <div>
+            <h3 class="main-files-title">Name</h3>
+            <p class="main-files-desc">In Drafts Edited 1 hour ago</p>
+          </div>
+          </div>
+      </li>
+      <li class="main-files-item">
+        <div class="main-files-img">
+          <img src="https://picsum.photos/id/828/296/179" alt="photo" width="296" height="179">
+        </div>
+        <div class="main-files-main row middle">
+          <div>
+            <img src="./images/file-pen-icon.svg" alt="file-pencil-icon" width="32" height="32">
+          </div>
+          <div>
+            <h3 class="main-files-title">Name</h3>
+            <p class="main-files-desc">In Drafts Edited 1 hour ago</p>
+          </div>
+          </div>
+      </li>
+      <li class="main-files-item">
+        <div class="main-files-img">
+          <img src="https://picsum.photos/id/828/296/179" alt="photo" width="296" height="179">
+        </div>
+        <div class="main-files-main row middle">
+          <div>
+            <img src="./images/file-pencil-icon.svg" alt="file-pencil-icon" width="32" height="32">
+          </div>
+          <div>
+            <h3 class="main-files-title">Name</h3>
+            <p class="main-files-desc">In Drafts Edited 1 hour ago</p>
+          </div>
+          </div>
+      </li>
+      <li class="main-files-item">
+        <div class="main-files-img">
+          <img src="https://picsum.photos/id/828/296/179" alt="photo" width="296" height="179">
+        </div>
+        <div class="main-files-main row middle">
+          <div>
+            <img src="./images/file-pen-icon.svg" alt="file-pencil-icon" width="32" height="32">
+          </div>
+          <div>
+            <h3 class="main-files-title">Name</h3>
+            <p class="main-files-desc">In Drafts Edited 1 hour ago</p>
+          </div>
+          </div>
+      </li>
+      <li class="main-files-item">
+        <div class="main-files-img">
+          <img src="https://picsum.photos/id/828/296/179" alt="photo" width="296" height="179">
+        </div>
+        <div class="main-files-main row middle">
+          <div>
+            <img src="./images/file-pencil-icon.svg" alt="file-pencil-icon" width="32" height="32">
+          </div>
+          <div>
+            <h3 class="main-files-title">Name</h3>
+            <p class="main-files-desc">In Drafts Edited 1 hour ago</p>
+          </div>
+          </div>
+      </li>
+      <li class="main-files-item">
+        <div class="main-files-img">
+          <img src="https://picsum.photos/id/828/296/179" alt="photo" width="296" height="179">
+        </div>
+        <div class="main-files-main row middle">
+          <div>
+            <img src="./images/file-pen-icon.svg" alt="file-pencil-icon" width="32" height="32">
+          </div>
+          <div>
+            <h3 class="main-files-title">Name</h3>
+            <p class="main-files-desc">In Drafts Edited 1 hour ago</p>
+          </div>
+          </div>
+      </li>
+      <li class="main-files-item">
+        <div class="main-files-img">
+          <img src="https://picsum.photos/id/828/296/179" alt="photo" width="296" height="179">
+        </div>
+        <div class="main-files-main row middle">
+          <div>
+            <img src="./images/file-pencil-icon.svg" alt="file-pencil-icon" width="32" height="32">
+          </div>
+          <div>
+            <h3 class="main-files-title">Name</h3>
+            <p class="main-files-desc">In Drafts Edited 1 hour ago</p>
+          </div>
+          </div>
+      </li>
+      <li class="main-files-item">
+        <div class="main-files-img">
+          <img src="https://picsum.photos/id/828/296/179" alt="photo" width="296" height="179">
+        </div>
+        <div class="main-files-main row middle">
+          <div>
+            <img src="./images/file-pen-icon.svg" alt="file-pencil-icon" width="32" height="32">
+          </div>
+          <div>
+            <h3 class="main-files-title">Name</h3>
+            <p class="main-files-desc">In Drafts Edited 1 hour ago</p>
+          </div>
+          </div>
+      </li>
+    </ul>
+    <!-- MAIN FILES PART END-->
+
+    </main>
+    <!-- MAIN PART END -->
+
+  </section>
 
 </body>
+
 </html>
