@@ -10,7 +10,10 @@
 
 .row {
   display: flex;
-  flex-flow: row wrap;
+}
+
+.wrap {
+  flex-wrap: wrap;
 }
 
 .between {
